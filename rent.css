@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+header{
+    height:60px;
+    background-color: rgb(12, 12, 12);
+}
+ul>li>a{
+    text-decoration: none ;
+    color: whitesmoke;
+}
+ul>li{
+    margin-top: 15px;
+}
+
+ul>li:nth-child(1){
+    font-size: 20PX;
+}
+ul>li>img{
+    margin: top 10px;
+    width: 40px;
+    height: 40px;
+}
+ul>li>button{
+    border: 1px solid #1A98FFCC;
+    background-color: #1A98FFCC;
+    border-radius: 5PX;
+    width: 96px;
+    height: 40px;
+}
+.navelements{
+    display: flex;
+    justify-content: space-around;
+}
